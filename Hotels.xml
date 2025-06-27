@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="http://pages.github.com/HotelsRepository/xml"
+<Hotels xmlns="https://salsabandit.github.io/HotelXMLRepo/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pages.github.com/HotelsRepository/xml Hotels.xsd">
+    xsi:schemaLocation="https://salsabandit.github.io/HotelXMLRepo/ Hotels.xsd">
 
     <Hotel Rating="3.6">
         <Name>Motel 6 Tempe</Name>
