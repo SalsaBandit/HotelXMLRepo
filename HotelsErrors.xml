@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns="http://pages.github.com/HotelsRepository/xml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pages.github.com/HotelsRepository/xml Hotels.xsd">
+
+    <Hotel Rating="3.6">
+        <Name>Motel 6 Tempe</Name>
+        <Phone>480-967-8696</Phone>
+        <Address>
+            <Number>1</Number>
+            <Street>513 W Broadway Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+    </Hotel>
+
+    <Hotel Rating="3.8">
+        <Name>GreenTree Inn and Suites</Name>
+        <Name>GreenTree Inn of Suites</Name>
+        <Address>
+            <Number>2</Number>
+            <Street>4324 S 48th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85040</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.3">
+        <Name>Hyatt Place Tempe</Name>
+        <Phone>480-207-1578</Phone>
+        <Address>
+            <Number>3</Number>
+            <Street>601 E 6th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hilton Phoenix Airport</Name>
+        <Phone>480-894-1600</Phone>
+        <Address>
+            <Number>4</Number>
+            <Street>2435 S 47th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
+    </Hotel>    
+
+    <Hotel>
+        <Name>Westin Tempe</Name>
+        <Phone>480-968-8885</Phone>
+        <Address>
+            <Number>5</Number>
+            <Street>11 E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <Name>University Inn</Name>
+        <Phone>480-966-7221</Phone>
+        <Address>
+            <Number>6</Number>
+            <Street>902 S Mill Ave</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>La Quinta Inn</Name>
+        <Phone>480-967-4465</Phone>
+        <Phone>480-967-4466</Phone>
+        <Address>
+            <Number>7</Number>
+            <Street>911 S 48th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.1">
+        <Name>Sonesta Select Tempe Downtown</Name>
+        <Phone>480-966-2800</Phone>
+        <Address>
+            <Number>8</Number>
+            <Street>601 S Ash Ave</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.2">
+        <Name>SpringHill Suites Phoenix</Name>
+        <Phone>480-968-8222</Phone>
+        <Address>
+            <Number>9</Number>
+            <Street>1601 W Rio Salado Pkwy</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.0">
+        <Name>Holiday Inn and Suites</Name>
+        <Phone>480-543-1700</Phone>
+        <Address>
+            <Number>10</Number>
+            <Street>3220 S 48th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85040</Zip>
+        </Address>
+    </Hotel>
+
+</Hotel>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://pages.github.com/HotelsRepository/xml"
+    targetNamespace="http://pages.github.com/HotelsRepository/xml"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en"> Hotels XML Schema </xsd:documentation>
+    </xsd:annotation>
+
+    <!-- Root of document, it contains all of the hotels inside of it. -->
+    <xsd:element name="Hotels" type="HotelsType" />
+
+    <!-- HotelsType, it contains a sequence of hotel objects in it. -->
+    <xsd:complexType name="HotelsType">
+        <xsd:sequence>
+            <xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- HotelType, it contains the name, phone, address and rating -->
+    <xsd:complexType name="HotelType">
+        <xsd:sequence>
+            <xsd:element name="Name" type="xsd:string" />
+            <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
+            <xsd:element name="Address" type="AddressType" />
+        </xsd:sequence>
+        <xsd:attribute name="Rating" type="xsd:decimal" use="optional" />
+    </xsd:complexType>
+
+    <!-- AddressType, it contains the number, street, city, state, zip and neartest airport. -->
+    <xsd:complexType name="AddressType">
+        <xsd:sequence>
+            <xsd:element name="Number" type="xsd:string" />
+            <xsd:element name="Street" type="xsd:string" />
+            <xsd:element name="City" type="xsd:string" />
+            <xsd:element name="State" type="xsd:string" />
+            <xsd:element name="Zip" type="xsd:string" />
+        </xsd:sequence>
+        <xsd:attribute name="NearestAirport" type="xsd:string" use="required" />
+    </xsd:complexType>
+
+</xsd:schema>
